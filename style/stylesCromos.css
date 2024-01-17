@@ -1,0 +1,19 @@
+.card-footer {
+    display: none;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Inicialmente establece la opacidad en 0 */
+}
+
+.card:hover .card-footer {
+    display: block;
+    opacity: 1; /* Cuando el cursor está sobre la carta, establece la opacidad en 1 */
+    cursor: pointer;
+}
+body {
+    background: url("/media/imagenDeFondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    border: 3px solid black;
+}
